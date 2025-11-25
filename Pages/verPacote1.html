@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="pt-mz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ver produto</title>
+    <link rel="stylesheet" href="/Pages_style/verpacote1.css">
+</head>
+<body>
+    <!-- HEader start -->
+  <header>
+    <!-- PART ONE OF THE PAGE -->
+    <nav>
+        <!-- LOGO OF THE PAGE IN A DIV -->
+        <div class="parte_1">
+        <div class="logo">
+            <h1>Mozprox</h1>
+        </div>
+        <!--NAV MENU HERE !-->
+        <div class="nav_menu">
+            <ul>
+                <li><a href="#">Voltar</a></li>
+                <li><a href="#">Comprar</a></li>
+                <li><a href="#">Suporte</a></li>
+            </ul>
+        </div>
+        <div class="menu_icon">
+            <!-- BUTTON FOR THE MENU HUMBURGUER EFECT -->
+           <button onclick="menuShow()">
+            <img    src="/MEDIA/menu_24dp_FFF_FILL0_wght400_GRAD0_opsz24.png" alt="menu icon">
+           </button>
+        </div>
+    </div>
+    <!-- PARTE TWO OF THE HEADER -->
+        <div class="parte_2">
+        <!-- HUMBURGUER MENU CONTENT -->
+            <menu id="nav_container" >
+             <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="#">Comprar</a></li>
+                <li><a href="#">Suporte</a></li>
+             </ul>
+            </menu>
+        </div>
+    </nav>
+  </header>
+  <!-- HEADER END AND MAIN START -->
+  <main>
+    <!-- CATEGORIA DE MATERIAS ISTO DE LIVROS  -->
+    <section class="materias_catalog">
+        <article>
+            <section class="image"></section>
+            <section class="descripton"></section>
+
+        </article>
+
+    </section>
+  </main>
+  <!-- FIM DA MAIN E INCIO DO FOOTER -->
+    <footer>
+       <!-- ABOUT US -->
+        <nav>
+            <section class="Sobre_nos">
+                <h2>Sobre nos</h2>
+                <p>
+                    A Mozprox é uma empresa com foco central na educação em Moçambique, dedicada a disseminar conhecimento de qualidade de forma acessível a todos. <a href="#">Saber Mais.</a>
+                </p>
+            </section>
+            <!-- LINKS UTEIS -->
+            <section>
+                <h2>Links Uteis</h2>
+                <ul>
+                    <li><a href="#">Vlog</a></li>
+                    <li><a href="#">Produtos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Termos de Uso</a></li>
+                    <li><a href="#">Mais sobre o produto</a></li>
+                    <li><a href="#">Ajuda</a></li>
+                </ul>
+            </section>
+            <!-- CONTATOS -->
+            <section>
+                <h2>Contactos</h2>
+                <ul>
+                    <li><a href="#">Email</a></li>
+                    <li><a href="#">Tel</a></li>
+                    <li><a href="#">Whatsapp</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul>
+            </section>
+        </nav>
+    <!-- COPYRIGHT AREA -->
+     <p class="copy"> © 2025 Mozprox. Todos os direitos reservados.</p>
+   <!-- JAVASCRIPT FOR THE WEB PAGE  -->
+  <script>
+    function menuShow(){
+        const Menu = document.getElementById("nav_container")
+       
+        if( Menu.style.display =="block"){
+             
+            Menu.style.display = "none" 
+        }else{
+            Menu.style.display ="block"
+        }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,714 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+  font-family: "Montserrat" , Arial, Helvetica, sans-serif;
+
+    
+}
+
+header{
+    padding: 10px;
+    background-color: #164DF2;
+    color: #ffc;
+    position: relative;
+}
+
+header .header_sec_1 {
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+
+
+}
+
+header .header_sec_1 h1 {
+  
+    font-size: 1.6em;
+}
+
+
+header .header_sec_1 nav{
+   background-color: #ffc;
+   position: sticky;
+   bottom: 90%;
+   right: 0;
+   padding: 10px;
+   border: 1px solid #cee;
+   display: none;
+}
+
+
+
+header .header_sec_1 button {
+    outline: none;
+    border: none;
+    background-color: #0F5AF2;
+}
+
+
+header .header_sec_1 .menu_icon{
+   background-color: #3565F2;
+   padding: 10px;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+
+
+ #menu_icon:hover .header_sec_1 nav {
+ display: block;
+ background-color: #ffc;
+ border: 1px solid #ccc;
+}
+
+ #menu_icon:hover .header_sec_1 nav ul li:hover{
+    padding: 15px;
+    background-color: #143C8C;
+    border-radius: 10px;
+    transition: 1.2s;
+
+ }
+
+
+header .header_sec_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header .header_sec_2  .menu_mobile{
+    display: none;
+     flex-direction: column;
+     text-align: center;
+     width: 100%;
+background-color: #0F5AF2;
+
+}
+
+
+header .header_sec_2  .menu_mobile ul{
+    list-style-type: none;
+}
+
+header .header_sec_2  .menu_mobile ul li { 
+    padding: 10px 0px;
+    
+}
+
+header .header_sec_2  .menu_mobile ul li:hover{
+    padding:15px ;
+    transition: 1.3s;
+    background-color: #143C8C;
+}
+
+
+
+header .header_sec_2  .menu_mobile ul li a{
+    color: #f0f4fa;
+    text-decoration: none ;
+    border-radius:10px;
+    padding: 10px;
+}
+
+
+
+  header .header_sec_2   .intro_text{
+    padding: 10px;
+    text-align: center;
+
+ } 
+
+ header .header_sec_2   .intro_text h2{
+    padding-bottom: 20px;
+ }
+
+ header .header_sec_2  .intro_media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:30vw;
+
+ }
+
+  header .header_sec_2  .intro_media img{
+    width: 90vw;
+  }
+
+
+  main .develop {
+      
+    padding: 10px;
+    text-align: justify;
+    text-indent: 10px;
+    margin: 20px 10px;
+
+  }
+
+  main .develop h2{
+    text-align: left;
+    padding: 20px;
+  }
+
+   main .develop  .develop_area{
+    padding-bottom:20px ;
+    color:#143C8C ;
+    display: flex;
+    flex-direction: column;
+
+   }
+
+  
+
+   .img_develop_container{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+    width: 100%;
+      order: 2;
+   }
+
+.develop_area .img_develop_container img{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+   }
+
+   .develop_area .text_develop_container {
+    order: 1;
+   }
+
+   .video_container{
+     width: 90%;
+     margin: auto;
+     border-radius: 20px;
+   }
+
+   .video{
+    width:100%;
+   }
+
+
+   main .Produtos{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100vw;
+    margin: auto;
+    background-color: #f0f4fa;
+   }
+
+main .Produtos article{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px 10px;
+    text-align: justify;
+    background-color:white;
+    box-shadow: 2px 2px 3px #cccccc9d;
+}
+
+main .Produtos section h2{
+    color: #0F5AF2;
+
+}
+
+main .Produtos article .article_image_area{
+    width: 90vw;
+    margin: auto;
+    padding: 10px;
+    height: auto;
+    display: flex;
+
+
+}
+
+
+ main .Produtos article .article_image_area img{
+    width: 50%;
+
+ }
+
+main .Produtos article h3{
+    color: #0F5AF2;
+    padding: 10px;
+}
+
+
+main .Produtos article h3 span{
+    background-color: #9715ed8a;
+    border-radius:20px ;
+    padding: 3px 10px;
+    color: #53039e;
+    margin-left: 10px;
+}
+
+
+main .Produtos article  ul {
+  list-style-type: none;
+}
+ 
+
+main .Produtos article  ul li{
+     
+    padding: 3px;
+
+}
+
+main .Produtos article button{
+    padding: 10px 20px;
+    color:#fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: #29A71A;
+    border-radius: 10px;
+    outline: none;
+    margin: 10px;
+
+}
+
+.link-btn{
+    color: white;
+    text-decoration: none;
+}
+
+.img-icon{
+    width:50px; 
+    display: inline-block;
+}
+
+footer{
+    background-color: #333;
+    color: #ffff;
+    text-align: center;
+    padding: 30px;
+
+}
+
+footer nav section{
+    padding: 10px;
+
+}
+
+footer nav section ul{
+    list-style-type: none;
+}
+
+footer nav section ul li a{
+  
+    text-decoration: none;
+    color: white;
+
+}
+
+footer nav section ul li a::after{
+    content:" [Link]";
+}
+
+footer .copy{
+     padding: 10px;
+     width: 100%;
+         font-size:1.3em;
+    font-weight: 200;
+}
+
+/* VER PACOTE  */
+.ver_pacote{
+   
+    color: white;
+    background-color: #184A8C;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/* media queries */
+
+@media  screen and (min-width:790px) {
+    
+    
+ header .header_sec_1 nav{
+  display: block;
+  background-color: #0F5AF2;
+  border: none;
+
+    }
+ header .header_sec_1 nav ul{
+     display:flex ;
+   justify-content: end;
+   list-style-type: none;
+
+ }
+
+ header .header_sec_1 nav ul li:hover{
+    background-color: #143C8C;
+    padding: 6px;
+    border-radius: 10px;
+    transition: 1.2s;
+    transition-delay: 0.5s;
+    
+ }
+
+ header .header_sec_1 nav ul a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+ }
+
+ 
+
+ header .header_sec_1 .menu_icon{
+    display: none;
+ }
+
+ header .header_sec_2{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ header .header_sec_2   .intro_text{
+    padding: 10px;
+    text-align: center;
+    width: 50vw;
+
+ } 
+
+ header .header_sec_2   .intro_text h2{
+
+    padding: 30px
+ }
+
+
+ header .header_sec_2  .intro_media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50vw;
+
+ }
+
+  header .header_sec_2  .intro_media img{
+    width: 70%;
+  }
+
+  main .develop {
+      
+    padding: 10px;
+    text-align: justify;
+    text-indent: 10px;
+    margin: 20px 10px;
+    
+  }
+
+    main .develop h2{
+        padding: 20px;
+    }
+
+   main .develop .marked{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+    
+   } 
+
+   main .develop .marked h2{
+    padding: 10px;
+   }
+
+   .video{
+    width: 100%;
+  
+
+   }
+
+   .video_container{
+      width: 80vw;
+     margin:auto;
+     border: 1px solid #ccccccc5;
+     border-radius: 12px;
+     box-shadow: 3px 3px 4px #cccccc7b;
+     padding: 10px;
+   }
+
+   main .Produtos section article {
+    width: 300px;
+   }
+
+
+
+     main .Produtos{
+        width: 100%;
+       }
+
+        main .Produtos h2 {
+            text-align: center;
+        }
+
+        
+        main .Produtos article {
+            text-align: left;
+            height: auto;
+            padding-top:50px;
+            
+        }
+
+
+    main .Produtos .Pacotes , .decima_classe , .decima_segunda_classe{
+        display: flex;
+         justify-content: center;
+         align-items: center;
+
+    }
+
+    footer {
+        height: 70vh;
+    }
+
+    footer nav  {
+        display: grid;
+        grid-template-columns: repeat(2, 300px);
+        grid-template-rows: auto ;
+        width: 80vw;
+        margin: auto;
+    }
+
+
+    footer p , h2{
+        width: 50%;
+        text-align: center;
+        margin: auto;
+    }
+
+    footer nav section ul li a:hover{
+        background-color: rgb(130, 29, 130);
+    }
+
+
+}
+
+/* MEDIA QUERIES FOR SCREENS ABOVE  1025PX */
+
+
+@media screen and (min-width:1025px ) and  (max-width:1800px){
+    
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    body{
+        width:100%;
+        margin: auto;
+    }
+
+
+    header{
+        width: 100%;
+    }
+    
+    
+    header .header_sec_1 {
+        padding: 10px;
+    }
+    
+    header .header_sec_2 .intro_text {
+        width: 50%;
+    }
+   
+    
+    
+    main  .develop{
+        width:1220px;
+        margin: auto;
+    }
+
+    main .develop .develop_area {
+         
+        border: 1px solid #ccc;
+        box-shadow: 2px 3px 3px #cccccc82;
+        margin: 20px 10px;
+        padding: 20px;
+    }
+
+    header .header_sec_2 .intro_tex{
+         max-width:1220px;
+    }
+
+       header .header_sec_2 .intro_text p {
+         color:#ccc;
+         font-weight: 500;
+       }
+
+       main .Produtos{
+        width: 100%;
+       }
+
+        main .Produtos h2 {
+            text-align: center;
+        }
+
+        
+        main .Produtos article {
+            text-align: left;
+            height: auto;
+            padding-top:50px;
+        }
+
+
+    main .Produtos .Pacotes , .decima_classe , .decima_segunda_classe{
+        display: flex;
+         justify-content: center;
+         align-items: center;
+
+    }
+
+    footer {
+        height: 70vh;
+    }
+
+    footer nav  {
+        display: grid;
+        grid-template-columns: repeat(3 , auto);
+        grid-template-rows: auto ;
+        width: 80vw;
+        margin: auto;
+    }
+
+
+    footer p , h2{
+        width: 50%;
+        text-align: center;
+        margin: auto;
+    }
+
+    footer nav section ul li a:hover{
+        background-color: rgb(130, 29, 130);
+    }
+}
+
+
+@media screen and (min-width:1025px ) and  (max-width:1280px){
+    
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    body{
+        width:100%;
+        margin: auto;
+    }
+
+
+    header{
+        width: 100%;
+    }
+    
+    
+    header .header_sec_1 {
+        padding: 10px;
+    }
+    
+    header .header_sec_2 .intro_text {
+        width: 50%;
+    }
+   
+    
+    
+    main  .develop{
+        width:1220px;
+        margin: auto;
+    }
+
+    main .develop .develop_area {
+         
+        border: 1px solid #ccc;
+        box-shadow: 2px 3px 3px #cccccc82;
+        margin: 20px 10px;
+        padding: 20px;
+    }
+
+    header .header_sec_2 .intro_tex{
+         max-width:1220px;
+    }
+
+       header .header_sec_2 .intro_text p {
+         color:#ccc;
+         font-weight: 500;
+       }
+
+       main .Produtos{
+        width: 100%;
+       }
+
+        main .Produtos h2 {
+            text-align: center;
+        }
+
+        
+        main .Produtos article {
+            text-align: left;
+            height: auto;
+            padding-top:50px;
+        }
+
+
+    main .Produtos .Pacotes , .decima_classe , .decima_segunda_classe{
+        display: flex;
+         justify-content: center;
+         align-items: center;
+
+    }
+
+    footer {
+        height: 70vh;
+    }
+
+    footer nav  {
+        display: grid;
+        grid-template-columns: repeat(3 , auto);
+        grid-template-rows: auto ;
+        width: 80vw;
+        margin: auto;
+    }
+
+
+    footer p , h2{
+        width: 50%;
+        text-align: center;
+        margin: auto;
+    }
+
+    footer nav section ul li a:hover{
+        background-color: rgb(130, 29, 130);
+    }
+}
+
+
+
+
+
+        
+    
+
+
+
+
+
+
+
